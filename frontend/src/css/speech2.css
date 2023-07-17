@@ -1,0 +1,164 @@
+/* Animations */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Container Style */
+
+.Container {
+  justify-content: left;
+  align-items: left;
+  position: relative;
+  text-align: left;
+}
+
+.innercontainer {
+  justify-content: left;
+  margin: 100px;
+}
+
+.content {
+  padding: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: beige;
+}
+
+/* Audio Button Style */
+
+.voice {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 24px;
+  color: red;
+  /* transition: color 0.3s ease; */
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.hello {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+/* Input Language style */
+
+/* Dropdown Style */
+
+.inplangdrop {
+  background: transparent;
+  background-color: lightgrey;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 325px;
+  height: 50px;
+  font-size: 20px;
+}
+
+/* Output Language Style */
+
+/* Dropdown Style */
+
+.outlangdrop {
+  background: transparent;
+  background-color: lightgrey;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 325px;
+  height: 50px;
+  font-size: 20px;
+}
+
+/* Final Data Style */
+
+.finaldata {
+  width: 98.5%;
+  height: 550px;
+  background-color: #E7F6FE;
+  border-radius: 5px;
+  padding: 10px;
+  /* display: grid;
+  grid-template-columns: auto auto; */
+  column-gap: 10px;
+  border: 2px solid black ;
+}
+
+/* Input language Data Style */
+
+.inplangdata {
+  margin: 10px;
+  width: 95%;
+  height: 540px;
+  border-radius: 2px;
+  /* grid-column-start: 1;
+  grid-column-end: 2; */
+  background-color: #EDDFFD;
+}
+
+/* Input Data Head */
+
+.inpdatahead{
+  margin: 5px;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Input Data Text */
+
+.inpdatatext{
+  width: 98%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  height: 83%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Output language Data Style  */
+
+.outlangdata {
+  margin: 10px;
+  width: 95%;
+  height: 540px;
+  border-radius: 2px;
+  /* grid-column-start: 2;
+  grid-column-end: 3; */
+  background-color: #EDDFFD;
+}
+
+/* Output Data Head */
+
+.outdatahead{
+  margin: 5px;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Output Data Text */
+
+.outdatatext{
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  height: 83%;
+  background-color: white;
+  border-radius: 5px;
+}
