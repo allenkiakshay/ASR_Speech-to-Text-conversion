@@ -4,12 +4,12 @@ import json
 import sys
 import os
 
-device = "cuda"
+device = "cpu"
 audio_file = sys.argv[1]
 file_n = os.path.splitext(os.path.basename(audio_file))[0]
 dir = sys.argv[2]
 batch_size = 16 # reduce if low on GPU mem
-compute_type = "float16" # change to "int8" if low on GPU mem (may reduce accuracy)
+compute_type = "float32" # change to "int8" if low on GPU mem (may reduce accuracy)
 
 # 1. Transcribe with original whis
 # per (batched)
